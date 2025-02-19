@@ -40,7 +40,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Configurar Credenciais AWS via Secrets
+      - name: Configurar Credenciais AWS viia Secrets
         uses: aws-actions/configure-aws-credentials@v2
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
